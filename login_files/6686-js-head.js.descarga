@@ -1,0 +1,10 @@
+jQuery(document).ready(function($){
+    /* Write your Public custom_public jQuery here! */
+	jQuery('.single_add_to_cart_button' ).on( 'click', function() {
+						console.log('add-cart');
+						fbq('track', 'AddToCart', {
+							content_name: jQuery('.sku').text(), 
+							content_type: 'product'
+						}); 
+				});		
+}); // document ready

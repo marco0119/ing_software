@@ -1,0 +1,193 @@
+/* =========================
+	PUBLIC DESKTOP CSS
+========================= */
+
+/* Write your Public SASS desktop here! */
+div#max-whit-menu {
+  width: 100%;
+}
+body {
+  font-family: TradeGothicLTStd-Bold, sans-serif !important;
+  /*=========================================================*/
+  /*M E N U*/
+}
+.no-breadcrumbs .main-content {
+  padding-top: 0;
+}
+#header .header-main .container {
+  min-height: 40px;
+}
+#header .header-main .header-center {
+  padding: 10px;
+  text-align: center;
+}
+.text-top-2 {
+  font-size: 12px;
+  font-weight: 600;
+}
+span.plus-top {
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: text-bottom;
+}
+.header-bottom.header-has-center.header-has-not-center-sm.main-menu-wrap {
+  border-bottom: solid 1px #000;
+}
+#header.sticky-header .main-menu-wrap, .fixed-header #header.sticky-header .main-menu-wrap {
+  background-color: #fff;
+  border-bottom: solid 1px #000 !important;
+}
+ul.mega-sub-menu {
+  margin-top: 10px !important;
+  /*=========================================================*/
+  /*F L A G*/
+}
+ul.bandeas-top {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+li.bandeas-top-img {
+  padding: 0 5px;
+  /*=========================================================*/
+  /*F O O T E R*/
+}
+.img-footer-everlat img {
+  width: 180px;
+}
+.img-footer-everlat {
+  text-align: center;
+}
+.footer-main h3.widget-title {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.footer-main a {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-main li {
+  border: none !important;
+}
+#footer .widget > div > ul, #footer .widget > ul, #footer .widget > div > ul li, #footer .widget > ul li, #footer .post-item-small {
+  border-color: transparent;
+}
+.footer-bottom {
+  border-top: solid 1px rgba(255, 255, 255, .1);
+  /*=========================================================*/
+  /*F O R M*/
+}
+.fomr-suscribe {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.addres-form {
+  width: 100%;
+}
+.vc_row.wpb_row.box-form-home.porto-inner-container {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.fomr-suscribe input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email.form-control {
+  border-color: #333;
+  border-radius: 5px 0 0 5px;
+}
+.fomr-suscribe input.wpcf7-form-control.wpcf7-submit.btn.btn-primary {
+  border-radius: 0 5px 5px 0;
+  /*=========================================================*/
+  /*S L I D E R*/
+}
+.titulo-slider, h2 {
+  font-family: TradeGothicLTStd-Bold, sans-serif !important;
+}
+button.single_add_to_cart_button.button.alt.disabled.wc-variation-selection-needed {
+  font-family: TradeGothicLTStd-Bold, sans-serif !important;
+  letter-spacing: 1px;
+  /*=========================================================*/
+  /**/
+  /*=========================================================*/
+  /**/
+  /*=========================================================*/
+  /**/
+  /*=========================================================*/
+  /**/
+  /*=========================================================*/
+  /**/
+  /*=========================================================*/
+  /**/
+  /*=========================================================*/
+  /**/
+}
+
+
+/* =========================
+	PUBLIC DESKTOP CSS END
+========================= */
+/* =========================
+	PUBLIC RESPONSIVE CSS
+========================= */
+
+/* TABLET LANDSCAPE */
+@media (max-width: 1199px) {
+
+
+
+}
+
+/* TABLET PORTRAIT */
+@media (max-width: 991px) {
+
+/* Write your Public SASS tablet-p here! */
+ul#menu-top-navigation-1 {
+  display: none !important;
+}
+#mega-menu-wrap-main_menu #mega-menu-main_menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item {
+  padding: 0px !important;
+  width: 100%;
+  border-bottom: solid 1px #000 !important;
+}
+ul.mega-sub-menu {
+  transform: translateY(0px) !important;
+}
+aside#follow-us-widget-2 {
+  text-align: center;
+}
+
+
+}
+
+/* MOBILE LANDSCAPE */
+@media (max-width: 767px) {
+
+
+
+}
+
+/* MOBILE PORTRAIT */
+@media (max-width: 479px) {
+
+/* Write your Public SASS mobile-p here! */
+ul.mega-sub-menu {
+  margin-top: 0px !important;
+}
+
+
+}
+
+/* RETINA FIXES */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+ 	   only screen and (-o-min-device-pixel-ratio: 3/2),
+ 	   only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+
+
+
+}
+/* =========================
+	PUBLIC RESPONSIVE CSS END
+========================= */
