@@ -4859,13 +4859,16 @@
 							tabindex="0">
 							<div class="registro-modificado">
 								<form method="post" class="woocommerce-form woocommerce-form-register register">
+								
 									<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-										<label class="font-weight-medium mb-1" for="reg_email">Dirección de correo
-											electrónico&nbsp;<span class="required">*</span></label>
-										<input type="email"
-											class="woocommerce-Input woocommerce-Input--text line-height-xl input-text"
-											name="email" id="reg_email" autocomplete="email" value="">
-									</p>
+										<div class="form-floating mb-3">
+											<input type="text"
+												class="form-control woocommerce-Input woocommerce-Input--text input-text line-height-xl"
+												name="email" id="reg_email autocomplete=" for="email" value=""
+												placeholder="name@example.com">
+											<label class="mb-1 font-weight-medium" for="email"> Dirección de correo electrónico&nbsp;<span class="required">*</span></label>
+										</div>
+										</p>
 
 
 									<p>A password will be sent to your email address.</p>
